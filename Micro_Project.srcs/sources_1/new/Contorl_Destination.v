@@ -1,6 +1,7 @@
-
+// file is not used in the design
 
 module Contorl_Destination(I,t,D,clk,OUT);
+  
 input clk,I;
 input [7:0] t;
 input [7:0] D;
