@@ -101,7 +101,7 @@ module Main();
         
     // Common bus
              
-    Common_Bus CB (OUT_CS[7:0],MEM_out,AC_out,DR_out,PC_out,AR_out,IR_out,Common_bus_out,clk,T );
+    Common_Bus CB (OUT_CS[7:0],MEM_out,AC_out,DR_out,PC_out,AR_out,IR_out,Common_bus_out,T );
         
         
        
