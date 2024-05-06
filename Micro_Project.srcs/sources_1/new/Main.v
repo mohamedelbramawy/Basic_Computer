@@ -37,7 +37,7 @@ module Main();
        
        // Timing decoder
         wire [7:0] T;
-        Decoder  dec (SC_out,T,clk);
+        Decoder  dec (SC_out,T);
       
      
      
@@ -84,7 +84,7 @@ module Main();
            
         // op code decoder
               wire  [7:0] D ;   
-              Decoder d (IR_out[14:12] ,D,clk);
+              Decoder d (IR_out[14:12] ,D);
               
      
       // ALU
