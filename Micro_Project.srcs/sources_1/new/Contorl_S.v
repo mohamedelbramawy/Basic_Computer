@@ -1,6 +1,6 @@
-// file is not used in the design
+// This file is not used in the design
 
-module Contorl_Destination(I,t,D,clk,OUT);
+module Control_s(I,t,D,clk,OUT);
   
 input clk,I;
 input [7:0] t;
