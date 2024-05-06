@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Decoder(d_in,d_out,clk );
+module Decoder(d_in,d_out );
  input  [2:0] d_in;
  input clk;
  output  [7:0] d_out;
