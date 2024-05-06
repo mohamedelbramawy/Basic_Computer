@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Micro_Project.srcs/sources_1/new/AC.v" \
+"../../../../Micro_Project.srcs/sources_1/new/ALU.v" \
+"../../../../Micro_Project.srcs/sources_1/new/AR.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Common_Bus.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Contol_Unit.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Control_Source.v" \
+"../../../../Micro_Project.srcs/sources_1/new/DR.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Decoder.v" \
+"../../../../Micro_Project.srcs/sources_1/new/E_Flag.v" \
+"../../../../Micro_Project.srcs/sources_1/new/IR.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Memory.v" \
+"../../../../Micro_Project.srcs/sources_1/new/PC.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Sequence_counter.v" \
+"../../../../Micro_Project.srcs/sources_1/new/Main.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

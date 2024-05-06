@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Main" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="356152880fs"></ZoomEndTime>
+      <Cursor1Time time="7968000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="88"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/Main/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/AR_out" type="array">
+      <obj_property name="ElementShortName">AR_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">AR_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/DR_out" type="array">
+      <obj_property name="ElementShortName">DR_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DR_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/AC_out" type="array">
+      <obj_property name="ElementShortName">AC_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AC_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/IR_out" type="array">
+      <obj_property name="ElementShortName">IR_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/SC_out" type="array">
+      <obj_property name="ElementShortName">SC_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SC_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/MEM_out" type="array">
+      <obj_property name="ElementShortName">MEM_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main/E_out" type="logic">
+      <obj_property name="ElementShortName">E_out</obj_property>
+      <obj_property name="ObjectShortName">E_out</obj_property>
+   </wvobject>
+</wave_config>

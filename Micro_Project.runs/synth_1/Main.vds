@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun May  5 11:33:45 2024
+# Process ID: 18076
+# Current directory: E:/MicroVerilog/Micro_Project/Micro_Project.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: E:/MicroVerilog/Micro_Project/Micro_Project.runs/synth_1/Main.vds
+# Journal file: E:/MicroVerilog/Micro_Project/Micro_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26696 
+WARNING: [Synth 8-2490] overwriting previous definition of module AC [E:/MicroVerilog/Micro_Project/Micro_Project.srcs/sources_1/new/AC.v:1]
+ERROR: [Synth 8-2715] syntax error near ; [E:/MicroVerilog/Micro_Project/Micro_Project.srcs/sources_1/new/Main.v:21]
+Failed to read verilog 'E:/MicroVerilog/Micro_Project/Micro_Project.srcs/sources_1/new/Main.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+2 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sun May  5 11:33:56 2024...
