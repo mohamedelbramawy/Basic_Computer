@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Common_Bus(selection ,MEM,AC,DR,PC,AR,IR,C_out,clk,t);
-input clk;
+module Common_Bus(selection ,MEM,AC,DR,PC,AR,IR,C_out,t);
+
 input [7:0] t;
 input [7:0] selection; 
 input [15:0] AC;
