@@ -1,4 +1,4 @@
-module DR(Q, INR, Data, LD, CLK, CLR);
+module REG_DATA(Q, INR, Data, LD, CLK, CLR);
 
 	output reg [15:0] Q;
 	input [15:0] Data;
