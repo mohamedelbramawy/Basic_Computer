@@ -46,7 +46,7 @@ if (ADD)
 
 else if (AND)
 begin 
-ALU_out = Ac_in && DR_in;
+ALU_out = Ac_in & DR_in;
 E = E_in;
 end 
 
@@ -64,7 +64,7 @@ E = E_in;
 end 
 
 
-else if (CIR)
+  else if (CIR && (clk ==0))
 begin 
 E <= ALU_out[0];
 ALU_out = ALU_out >> 1;
@@ -72,7 +72,7 @@ ALU_out[15] = E;
 end 
 
 
-else if (CIL)
+  else if (CIL && (clk ==0))
 begin 
 E <= ALU_out[15];
 ALU_out = ALU_out << 1;
