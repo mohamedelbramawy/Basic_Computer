@@ -1,4 +1,4 @@
-module PC(Q, INR, Data, LD, CLK, CLR);
+module REG_ADD(Q, INR, Data, LD, CLK, CLR);
 
 	output reg [11:0] Q;
 	input [11:0] Data;
