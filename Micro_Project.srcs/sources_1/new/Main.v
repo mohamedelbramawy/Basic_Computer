@@ -44,12 +44,12 @@ module Main();
      // Accumulator
         wire [15:0] AC_out;
         wire INR_AC, Load_AC, CLR_AC; 
-        AC AC_Reg(AC_out,INR_AC, ALU_out, Load_AC, clk, CLR_AC);
+        REG_DATA AC_Reg(AC_out,INR_AC, ALU_out, Load_AC, clk, CLR_AC);
         
         // Data Register
            wire [15:0] DR_out;
            wire INR_DR, Load_DR, CLR_DR; 
-           DR DR_Reg(DR_out,INR_DR, Common_bus_out, Load_DR, clk, CLR_DR);
+           REG_DATA DR_Reg(DR_out,INR_DR, Common_bus_out, Load_DR, clk, CLR_DR);
        
        // E Flag 
          wire E_clr ;
@@ -69,13 +69,13 @@ module Main();
         // Addres  Register
           wire [11:0] AR_out;
           wire INR_AR, Load_AR, CLR_AR; 
-          AR AR_Reg(AR_out,INR_AR, Common_bus_out [11:0], Load_AR, clk, CLR_AR);  
+          REG_ADD AR_Reg(AR_out,INR_AR, Common_bus_out [11:0], Load_AR, clk, CLR_AR);  
         
         
         // program counter
            wire [11:0] PC_out;   
            wire INR_PC, Load_PC, CLR_PC; 
-           PC PC_Reg(PC_out,INR_PC, Common_bus_out [11:0], Load_PC, clk, CLR_PC);
+           REG_ADD PC_Reg(PC_out,INR_PC, Common_bus_out [11:0], Load_PC, clk, CLR_PC);
          
         // RAM
                wire [15:0] MEM_out;   
