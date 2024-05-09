@@ -53,7 +53,7 @@ end
 
 
 
-always @( M_input)
+   always @( clk)
 
 if (Read)
 M_output = RAM[Add];
